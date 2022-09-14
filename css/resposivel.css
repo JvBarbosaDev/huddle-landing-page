@@ -1,0 +1,83 @@
+@media only screen and (width:1440px){
+    body {
+        background-size: 90% 100%;
+        background-position-x: -30px;
+    }
+}
+
+
+@media all and  (max-width:1024px){
+    body {
+        background: var(--color-primary);
+        background-image: url("../images/bg-mobile.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    footer {
+        justify-content: center;
+        display: flex;
+    }
+    .container {
+        display: block;
+    }
+    .text-content-right {
+        text-align: center;
+        gap: 10px;
+    }
+    .text-content-right {
+        text-align: center;
+        gap: 10px;
+    }
+    .btn-register {
+        margin-inline: 350px
+    }
+    .h1-title {
+        font-size: 4.3em;
+    }
+    .text-box {
+        font-size: 1.5em;
+    }
+    .social-media-right-botton {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:720px){   
+    .text-content-right {
+        text-align: center;
+        gap: 10px;
+    }
+    .btn-register {
+        margin-inline: 175px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .btn-register {
+        margin-inline: 45px;
+    }
+    .h1-title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .text-box {
+        font-size: 0.9em;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:395px){
+    .btn-register {
+        margin: 20px;
+    }
+    .h1-title {
+        font-size: 1.18em;
+        text-align: center;
+    }
+    .text-box {
+        font-size: 0.69em;
+        text-align:center;
+    }
+}
+

@@ -1,0 +1,83 @@
+body {
+    background: var(--color-primary);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+header {
+    width: 100%;
+    margin: 15px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+main {
+    padding: 2em;
+}
+
+.container {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    display: grid;
+}
+
+.illustration-left {
+    width: 100%;
+    gap: 15px;
+}
+
+.illustration-left img {
+    width: 100%;
+}
+
+.text-content-right {
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-white);
+    display: flex;
+    padding: 3em;
+    gap: 25px;
+}
+
+.h1-title {
+    font-size: 2.75em;
+    font-weight: 600;
+}
+
+.btn-register {
+    border-radius: 5rem;
+    color: var(--color-primary);
+    border: 1px solid rgb(0 0 0 / 40%);
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 40%);
+    width: 12.5em;
+    height: 3.5em;
+}
+
+.btn-register:hover {
+    background: var(--color-secondary);
+}
+
+.social-media-right-botton {
+    justify-content: right;
+    display: flex;
+    padding-inline: 4.75em;
+}
+
+.icons-social-media {
+   padding-inline: 10px;
+}
+
+.icon-social{
+    border: 1px solid white;
+    border-radius: 5rem;
+    padding: 5px;
+}
+
+.icon-social:hover {
+    border: 1px solid hotpink;
+    fill: hotpink;
+}
